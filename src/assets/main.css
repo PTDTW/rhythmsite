@@ -1,0 +1,64 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");s */
+
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.dc-login-btn {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #7289da;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.dc-login-btn:hover {
+    transition: 0.5s;
+    box-shadow: 0px 7px 30px -6px;
+    background-color: #5865f2;
+}
+
+.dc_login_link {
+    text-align: center;
+}
+
+.fa-discord {
+    color: #fff;
+}
+
+.botText {
+    font-weight: bold;
+    /*background: -webkit-linear-gradient(90deg, rgba(0,116,255,1) 1%, rgba(89,0,255,1) 7%, rgba(113,21,199,1) 18%);*/
+    -webkit-background-clip: text;
+    background-image: linear-gradient(138deg, rgba(149,79,254,1) 26%, rgba(203,0,254,1) 75%, rgba(255,255,255,1) 100%);
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* text-shadow: 0 0 5px rgba(149,79,254,1), 
+    0 0 6px rgba(203,0,254,1), 
+    0 0 7px rgba(255,255,255,1); */
+}
+
+@media(max-width:540px) {
+    .introducetext {
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        font-size: 40px;
+    }
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+}

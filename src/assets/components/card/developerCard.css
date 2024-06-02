@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 将容器分为四等份 */
+    grid-gap: 20px; /* 设置间距 */
+
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.developersCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(29, 29, 29, 0.631);
+    padding: 10px;
+    padding-top: 12px;
+    margin-top: 20px;
+    border-radius: 12px;
+    /* max-width: 7s00px; */
+}
+.header>.avatar{
+    width: 130px;
+    border-radius: 100px;
+}
+.name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.Position{
+    text-align: center;
+    color: #7d7d7ddc;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media(max-width: 984px){
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+    }
+    .developersCard{
+        /* padding: 60px; */
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 40px;
+        height: 320px;
+    }   
+}

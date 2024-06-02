@@ -1,0 +1,36 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@master/css": "^1.37.8",
+    "@popperjs/core": "^2.11.8",
+    "animate.css": "^4.1.1",
+    "animation-vue": "^0.0.9",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "vue": "^3.4.15",
+    "vue-confetti": "^2.3.0",
+    "vue-marquee-slider": "^1.0.6",
+    "vue-router": "^4.2.5",
+    "vue3-marquee": "^4.2.0-beta.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "sass": "^1.70.0",
+    "vite": "^5.0.11"
+  }
+}

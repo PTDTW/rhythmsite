@@ -1,0 +1,64 @@
+.r-marquee-badge{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: #e857f0d2 2px 2px 0px;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 15px 5px 15px 5px;
+    background: linear-gradient(138deg, rgba(255,255,255,1) 0%, rgba(230,164,254,1) 4%, rgba(149,79,254,1) 71%);
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+}
+
+
+.r-guilds-Marquee{
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+}
+.r-guilds-Marquee-container>img{
+    padding: 5px;
+    border-radius: 100px;
+    width: 64px;
+}
+
+.r-guilds-Marquee-container{
+    color: #fff;
+    font-size: 20px;
+    background: #171717;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: #222222 5px 5px 0px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.r-guilds-Marquee-container {
+    margin-right: 20px; /* 右侧空隙 */
+}
+
+/* 如果需要在每个元素之间同时添加水平和垂直空隙，您也可以使用 margin 属性的简写方式 */
+.r-guilds-Marquee-container {
+    margin: 0 20px; /* 水平和垂直空隙均为20px */
+}
+
+.r-guilds-Marquee-container:hover{
+    box-shadow: #4f4f4fd9 0px 0px 9px 3px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media(max-width: 984px){
+    .r-guilds-Marquee{
+        width: 100%;
+    }
+}

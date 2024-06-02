@@ -1,0 +1,89 @@
+.Hero{
+    text-align: center;
+    position: relative;
+}
+
+.botText {
+    font-weight: bold;
+    /*background: -webkit-linear-gradient(90deg, rgba(0,116,255,1) 1%, rgba(89,0,255,1) 7%, rgba(113,21,199,1) 18%);*/
+    -webkit-background-clip: text;
+    background-image: linear-gradient(138deg, rgba(149,79,254,1) 26%, rgba(203,0,254,1) 75%, rgba(255,255,255,1) 100%);
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* text-shadow: 0 0 5px rgba(149,79,254,1), 
+    0 0 6px rgba(203,0,254,1), 
+    0 0 7px rgba(255,255,255,1); */
+}
+
+.inviteLink{
+    text-decoration: none;
+}
+.introducetext {
+    color: #fff;
+    text-align: center;
+    /* top: 50px; */
+    font-size: 60px;
+}
+
+.r-slonger{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inviteBot{
+    font-weight: bold;
+    /* display: block; */
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    /* border: #fff 3px solid; */
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    height: 60px;
+    box-shadow: inset 2px 2px 0 rgba(149,79,254,1), inset -2px -2px 0 rgba(203,0,254,1), 5px 5px 25px rgb(138, 42, 171), -5px -5px 25px rgba(140, 6, 212, 0.5);
+    transition: 1s;
+}
+
+.inviteBot:hover{
+    /* display: block; */
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    /* border: #fff 3px solid; */
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    height: 60px;
+    /* box-shadow: none; */
+    transition: 1s;
+    /* background-image: linear-gradient(138deg, rgba(149,79,254,1) 26%, rgba(203,0,254,1) 75%); */
+    box-shadow: inset 95px 0px 0 rgba(149,79,254,1), inset -105px -2px 0 rgba(203,0,254,1), 5px 5px 25px rgb(189, 77, 227), -5px -5px 25px rgba(148, 73, 188, 0.829);
+}
+
+
+.button-wrapper {
+    display: flex;
+    align-items: center; /* 水平垂直居中对齐 */
+    justify-content: center;
+}
+
+
+
+
+@media (max-width: 672px) {
+    .r-slonger {
+        margin-top: 20px; /* Adjust font size as needed */
+    }
+}
+
+
+@media (max-width: 430px) {
+    .r-slonger {
+        margin-top: 100px; /* Adjust font size as needed */
+    }
+}

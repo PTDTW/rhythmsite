@@ -1,0 +1,216 @@
+body {
+    /* overflow-y: hidden; */
+}
+
+/* .rhytem_navbar {
+    display: none;
+} */
+
+.pageBg {
+    position: fixed;
+    /* 以固定位置覆盖整个视口 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* 宽度占满整个视口 */
+    height: 100%;
+    /* 高度占满整个视口 */
+    background-color: rgba(34, 34, 34, 0.62);
+    /* 半透明背景色 */
+    z-index: 1;
+    /* 确保在背景元素之后 */
+}
+.adventureWord {
+    position: fixed;
+    /* 文字相对于视口固定位置 */
+    top: 50%;
+    /* 垂直居中 */
+    left: 50%;
+    /* 水平居中 */
+    transform: translate(-50%, -50%);
+    /* 居中对齐 */
+    color: #fff;
+    font-size: 20px;
+    z-index: 2;
+    /* 确保在背景元素之前 */
+}
+
+
+.container {
+    position: relative;
+    /* 添加这行以确保 .adventureWord 在 .pageBg 之上 */
+}
+
+
+.inviteTitle {
+    position: fixed;
+    z-index: 2;
+    color: #fff;
+    left: 50%;
+    /* 水平居中 */
+    transform: translate(-50%);
+    /* 居中对齐 */
+    top: 60px;
+    font-size: 35px;
+    transition: 0.6s;
+}
+
+.inviteArea {
+    position: fixed;
+    z-index: 2;
+
+
+}
+
+
+.inviteCardContainer {
+    position: fixed;
+    width: 800px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 150px;
+    border: #817e7ec3 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(24, 23, 23, 0.849);
+    /* box-shadow: #fff 0px 0px 30px 0.5px;s */
+    backdrop-filter: blur(100px);
+    /* transition: 0.6s;    */
+    /* height: 550px; */
+}
+
+.inviteTitle.isHidden {
+    top: -60px;
+
+}
+
+.inviteCardContainer.isHidden {
+    top: -580px;
+
+}
+
+.inviteCardContainer>.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 将内容水平居中 */
+}
+
+.inviteCardContainer>.header>.logo,
+.inviteCardContainer>.header>.dcHome {
+    width: 110px;
+    border-radius: 100px;
+    margin: 0 20px;
+    /* 为了保持间距，添加左右边距 */
+}
+
+.inviteCardContainer>.header>.arrowIcon {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.PermissionsCard {
+    background-color: rgba(45, 45, 45, 0.813);
+    color: #fff;
+}
+
+.PermissionsCard:hover{
+    background-color: rgba(50, 50, 50, 0.813);
+}
+
+.PermissionsList {
+    margin-right: 5px;
+}
+
+.PermissionsCard01{
+    cursor: pointer;
+}
+.PermissionsCard01>.card-header{
+    display: flex;
+    align-items: center;
+}
+
+.PermissionsCard01.isActive{
+    border: #009dffae 3px solid;
+}
+.PermissionsCard01.isActive:hover{
+    border: #079df9da 3px solid;
+}
+.nextBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px; /* 可以根据需要调整按钮与上方内容的间距 */
+    width: 100%; /* 让按钮占满父容器的宽度 */
+}
+
+.nextBtn button{
+    font-weight: bold;
+    background: none;
+    background-image: linear-gradient(138deg, rgba(149,79,254,1) 26%, rgba(203,0,254,1) 75%, rgba(255,255,255,1) 100%);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.btnIcon{
+    color: #fff;
+}
+.nextBtn button:hover{
+    box-shadow: 0px 1px 12px 3px rgb(138, 42, 171), -2px -2px 2px rgba(140, 6, 212, 0.5);
+    border: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* color: #000000; */
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+
+/* Add this CSS at the end of your existing styles */
+
+/* For screens smaller than 768px (typical tablets) */
+@media (max-width: 768px) {
+    .inviteCardContainer {
+        width: 90%; /* Adjust width as needed */
+        padding: 20px; /* Adjust padding as needed */
+    }
+}
+
+/* For screens smaller than 576px (typical smartphones) */
+@media (max-width: 576px) {
+    .inviteTitle {
+        font-size: 25px; /* Adjust font size as needed */
+    }
+
+    .inviteCardContainer {
+        width: 90%; /* Adjust width as needed */
+        top: 100px; /* Adjust top position as needed */
+        padding: 10px; /* Adjust padding as needed */
+    }
+}
+
+/* For screens smaller than 375px (small smartphones like iPhone 5/SE) */
+@media (max-width: 375px) {
+    .inviteTitle {
+        font-size: 20px; /* Adjust font size as needed */
+    }
+}
+
+
+@media (max-width: 904px) {
+    .inviteTitle {
+        display: none;
+    }
+    .inviteCardContainer {
+        width: 90%;
+    }
+}

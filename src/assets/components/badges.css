@@ -1,0 +1,17 @@
+.r-badeg-yellow {
+    background-color: rgba(199, 196, 19, 0.661);
+    color: rgba(229, 255, 0, 0.898);
+    border: rgba(233, 236, 66, 0.305) 1px solid;
+}
+
+.r-badeg-blue {
+    background-color: #7289d9;
+    color: #fff;
+    border: #2c38639a 1px solid;
+}
+
+.r-badeg-red {
+    background-color: #ea3b3bca;
+    color: #f2b8b8ce;
+    border: rgba(129, 3, 3, 0.608) 1px solid;
+}

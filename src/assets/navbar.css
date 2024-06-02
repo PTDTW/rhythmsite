@@ -1,0 +1,33 @@
+.rhytem_navbar {
+    background-color: rgba(30, 28, 28, 0.004);
+    /* 使用rgba来设置背景颜色并设置透明度 */
+    backdrop-filter: blur(5px);
+    /* 使用backdrop-filter来添加毛玻璃效果，可以调整模糊程度 */
+    /* padding: 10px 20px; */
+    /* 调整导航栏内边距 */
+    position: fixed;
+    /* 让导航栏固定在页面上 */
+    top: 0;
+    /* 导航栏距离顶部的距离为0 */
+    width: 100%;
+    /* 导航栏宽度占满整个屏幕 */
+    z-index: 999;
+    /* 确保导航栏位于其他内容之上 */
+    border-bottom: 0.3px #1a1a1aa6 solid;
+}
+  
+.r-logo {
+border-radius: 100%;
+width: 30px;
+text-align: center;
+}
+
+.rhytem_navbar_link{
+    text-decoration: none;
+}
+/* 
+.nav-item::after{
+    content: "";
+    width: 10px;
+    border-bottom: #ff0;
+} */

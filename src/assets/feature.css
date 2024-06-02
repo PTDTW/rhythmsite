@@ -1,0 +1,149 @@
+.r-feature-badge{
+    display: inline-block;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: #21de93cf 2px 2px 0px;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: linear-gradient(138deg, rgba(255, 255, 255, 0.746) 0%, rgba(232, 254, 164, 0.985) 4%, rgba(113, 216, 82, 0.976) 71%);
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+}
+
+.featureCardsContainer{
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 1050px;
+}
+
+.featureCardStyle1{
+    background: rgb(255,255,255);
+    background: linear-gradient(167deg, rgba(255,255,255,1) 0%, rgba(220,164,254,1) 7%, rgba(196,135,254,1) 28%, rgba(204,98,253,1) 55%, rgba(254,79,253,1) 85%);
+    border-radius: 200px 30px 30px 200px;
+    padding: 25px;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.featureCardStyle2{
+    background: rgb(255,255,255);
+    background: linear-gradient(167deg, rgba(255,255,255,1) 0%, rgba(220,164,254,1) 7%, rgba(196,135,254,1) 28%, rgba(204,98,253,1) 55%, rgba(254,79,253,1) 85%);
+    border-radius: 30px 200px 200px 30px;
+    padding: 25px;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.featureCard-image{
+    border-radius: 10px;
+    transform: perspective(900px) rotateY(25deg) rotateX(10deg);
+    margin-left: 20px;
+    box-shadow: #fff 0px 3px 9px 0px;
+    width: 380px;
+    transition: 0.3s;
+}
+
+.featureCard-image:hover {
+    border-radius: 13px;
+    transform-origin: left; /* 设置旋转原点为左上角 */
+    /* transform: rotate(-10deg); 将图片逆时针旋转10度 */
+    transform: skewX(0deg) skewY(0deg) scale(1.1);
+    box-shadow: #fff 0px 0px 14px 4px;
+    transition: 0.3s;
+}
+
+.featureCard-image2{
+    border-radius: 10px;
+    transform: perspective(900px) rotateY(-20deg) rotateX(10deg);
+    margin-right: 0px;
+    box-shadow: #fff 0px 3px 9px 0px;
+    width: 380px;
+    transition: 0.3s;
+}
+
+.featureCard-image2:hover {
+    border-radius: 13px;
+    transform-origin: left; /* 设置旋转原点为左上角 */
+    /* transform: rotate(-10deg); 将图片逆时针旋转10度 */
+    transform: skewX(0deg) skewY(0deg) scale(1.1);
+    box-shadow: #fff 0px 0px 14px 4px;
+    transition: 0.3s;
+}
+
+.featureCardTextContainer1 {
+    padding-left: 165px;
+}
+
+.featureCardTextContainer2 {
+    padding-right: 125px;
+}
+.featureCardText-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+}
+
+.featureCardText-content{
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff93;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+@media(max-width: 984px){
+    /* ALL */
+    .featureCardsContainer{
+        max-width: 650px;
+    }
+    .featureImgCardContainer1, .featureImgCardContainer2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+
+    .featureCardStyle1, .featureCardStyle2{
+        border-radius: 30px;
+    }
+
+    .featureCard-image, .featureCard-image2{
+        transform: none;
+    }
+
+    .featureCard-image:hover , .featureCard-image2:hover{
+        border-radius: 13px;
+        transform-origin: center;
+        transform: skewX(0deg) skewY(0deg) scale(1.1);
+        box-shadow: #fff 0px 0px 14px 4px;
+        transition: 0.3s;
+    }
+
+    .featureCardTextContainer1,  .featureCardTextContainer2{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+    
+    }
+    
+    /* 01 */
+    .featureImgCardContainer1{
+        padding-bottom: 20px;
+    }
+}
+
+
