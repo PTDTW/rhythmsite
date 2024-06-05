@@ -1,6 +1,6 @@
 <template>
     <div class="rFooter" :class="{ hide : isInvite()}">
-        Copyright ©2022 - 2023 All rights reserved Rhytem
+        Copyright ©2022 - 2023 All rights reserved Rhythm
     </div>
 </template>
 <script setup>

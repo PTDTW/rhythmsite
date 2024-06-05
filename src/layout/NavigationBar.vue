@@ -4,7 +4,7 @@
       <RouterLink to="/" class="navbar-brand">
         <a class="navbar-brand" href="#" style="padding-left: 10px;">
           <img src="@/assets/favicon.ico" alt="Logo" width="30" height="30" class="r-logo d-inline-block align-text-top">
-          Rhytem</a>
+          Rhythm</a>
       </RouterLink>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
