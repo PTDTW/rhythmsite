@@ -25,26 +25,26 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       // component: () => import('../views/RouterChildrenPage/botinviteIndex.vue'),
       component: () => import('../views/BotInviteOnly.vue'),
-      // children: [
-      //   {
+      children: [
+        // {
       //     name: 'botInviteOnly',
       //     path: 'only',
       //     component: () => import('../views/BotInviteOnly.vue'),
       //   },
-      //   {
-      //     name: 'botInvitethanks',
-      //     path: 'thanks',
-      //     component: () => import('../views/thanks.vue'),
-      //   },
+        {
+          name: 'botInvitethanks',
+          path: 'thanks',
+          component: () => import('../views/thanks.vue'),
+        },
       //   {
       //     path: '',
       //     component: () => import('../views/BotInvite.vue'),
       //   },
-      //   {
-      //     path: "/:notFound",
-      //     component: import('../views/error/404.vue'),
-      //   },
-      // ],
+        {
+          path: "/:notFound",
+          component: import('../views/error/404.vue'),
+        },
+      ],
   
     },
   ]

@@ -96,7 +96,7 @@ const Permissions01List = [
 ];
 
 function openInvite() {
-    const win = open("https://discord.com/api/oauth2/authorize?client_id=1202153752438505504&permissions=6445976640&scope=bot+applications.commands", "invite", 'height=800,width=600')
+    const win = open("https://discord.com/api/oauth2/authorize?client_id=1202153752438505504&permissions=827116088656&scope=bot+applications.commands", "invite", 'height=800,width=600')
     const timer = setInterval(() => {
     if (win.closed) {
         clearInterval(timer);
