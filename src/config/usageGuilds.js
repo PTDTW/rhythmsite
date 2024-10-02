@@ -42,21 +42,15 @@ export const guilds = [
         "badges":[]
     },
     {
-        "icon": "https://cdn.discordapp.com/icons/1156930341035065487/8cb6631ecdbc322919f617926fe72a07.jpg?size=2048",
-        "name": "耍廢一家宗親會",
-        "link":"https://discord.gg/4nvkr6Fg5J",
-        "badges":[]
-    },
-    {
         "icon": "https://cdn.discordapp.com/icons/981746273688358972/c65be626e40893b01b6f2d78660c5aab.png?size=2048",
         "name": "貓妖の翔的貓鯊盆",
         "link":"https://discord.gg/xAc9ajZP6K",
         "badges":[]
     },
     {
-        "icon": "https://cdn.discordapp.com/icons/1060965113269588119/a_e4d95d6ad88427f1df41344030aef6d9.gif?size=2048",
-        "name": "Bityo | 幣友科技",
-        "link":"https://discord.gg/fSm2nZFh8z",
+        "icon": "/public/guilds/bityo.gif",
+        "name": "Bityo｜幣友科技",
+        "link":"https://dc.bityo.tw/",
         "badges":[]
     },
 
