@@ -53,5 +53,11 @@ export const guilds = [
         "link":"https://discord.gg/xAc9ajZP6K",
         "badges":[]
     },
+    {
+        "icon": "https://cdn.discordapp.com/icons/1060965113269588119/a_e4d95d6ad88427f1df41344030aef6d9.gif?size=2048",
+        "name": "Bityo | 幣友科技",
+        "link":"https://discord.gg/fSm2nZFh8z",
+        "badges":[]
+    },
 
 ]
